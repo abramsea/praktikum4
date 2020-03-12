@@ -1,0 +1,61 @@
+/* barentsburg  */
+
+.barentsburg {
+    padding: 85px 48px 0 48px;
+}
+
+.barentsburg__title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 61px;
+    margin: 0 0 20px 0;
+}
+
+.barentsburg__coord {
+    font-size: 42px;
+    line-height: 61px;   
+    margin: 0 0 48px 0; 
+}
+
+.barentsburg__map {
+    width: 100%;
+}
+
+.barentsburg__text-container {
+    display: flex;
+    margin: 48px 0 0 0;
+}
+
+.barentsburg__text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 380px;
+    margin: 0;
+}
+
+.barentsburg__url-container {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    margin: 0 0 0 120px;
+}
+
+.barentsburg__url-heading {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaa;
+    margin: 0;
+}
+
+.barentsburg__link {
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #fff;
+    margin: 12px 0 0 0;
+}
+
+.barentsburg__link:hover {
+    text-decoration: none;
+}

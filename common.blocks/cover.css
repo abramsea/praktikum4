@@ -1,0 +1,154 @@
+/* cover  */
+
+.cover {
+    padding: 274px 48px 0 48px;
+    position: relative;
+    box-sizing: border-box;
+    background: url(../images/cover.jpg) top center no-repeat;
+    background-size: contain;
+    width: 1184px;
+    height: 594px;
+    margin: 102px auto 0 auto;
+}
+
+.cover__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 1184px;
+    height: 594px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+.cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto 134px auto;
+}
+
+.cover__subtitle {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    max-width: 382px;
+}
+
+.cover::after {
+    background: #000;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 1184px;
+    height: 594px;
+    z-index: 2;
+    content: "";
+}
+
+.cover:hover:after {
+    opacity: .6;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        padding: 211px 48px 0 48px;
+        background-size: cover;
+        width: 100%;
+        max-height: 562px;
+    }
+    
+    .cover__link {
+        width: 100%;
+        max-height: 562px;
+    }
+    
+    .cover__title {
+        margin: 0 auto 80px auto;
+    }
+    
+    .cover::after {
+        width: 100%;
+        max-height: 562px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        padding: 165px 24px 0 24px;
+        max-height: 500px;
+    }
+    
+    .cover__link {
+        max-height: 500px;
+    }
+    
+    
+    .cover__title {
+        margin: 0 auto 45px auto;
+    }
+
+    
+    .cover::after {
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        padding: 100px 16px 0 16px;
+        max-height: 272px;
+        margin: 48px 0 0 0;
+    }
+    
+    .cover__link {
+        max-height: 272px;
+    }
+    
+    .cover__title {
+        margin: 0 auto 10px auto;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    
+    .cover::after {
+        max-height: 272px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+    .cover {
+        padding: 64px 16px 0 16px;
+        max-height: 216px;
+        margin: 48px 0 0 0;
+    }
+    
+    .cover__link {
+        max-height: 216px;
+    }
+    
+    .cover::after {
+        max-height: 216px;
+    }
+}
+

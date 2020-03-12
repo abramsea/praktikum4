@@ -1,0 +1,32 @@
+@import url('../fonts/inter.css');
+@import url('../common.blocks/header.css');
+@import url('../common.blocks/lead.css');
+@import url('../common.blocks/intro.css');
+@import url('../common.blocks/photo-grid.css');
+@import url('../common.blocks/places.css');
+@import url('../common.blocks/video.css');
+@import url('../common.blocks/content-title.css');
+@import url('../common.blocks/content-subtitle.css');
+/* @import url('../common.blocks/additional.css'); */
+@import url('../common.blocks/comments.css');
+@import url('../common.blocks/cover.css');
+/* @import url('../common.blocks/emblem.css'); */
+/* @import url('../common.blocks/barentsburg.css'); */
+@import url('../common.blocks/footer.css');
+
+
+.body {
+    background: #2a2c2f;
+    color: #fff;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: normal;
+
+}
+
+.wrapper {
+    background: #2a2c2f;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+

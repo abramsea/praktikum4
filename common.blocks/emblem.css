@@ -1,0 +1,37 @@
+/* emblem  */
+
+.emblem {
+    padding: 0 48px;
+}
+
+.emblem__title {
+    max-width: 443px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 82px 0;
+}
+
+.emblem__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emblem__item {
+    width: 208px;
+    text-align: center;
+}
+
+.emblem__item__image {
+    height: 226px;
+}
+
+.emblem__item__city {
+    margin: 35px 0 0 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #ccc;
+}
+

@@ -1,0 +1,96 @@
+/* comments  */
+
+
+.comments {
+    padding: 0 48px;
+}
+
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    max-width: 382px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin: 0 0 42px 0;
+}
+
+.comment__quote {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px 0;
+}
+
+.comment__author {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .comment {
+        max-width: 296px;
+    }
+
+    .comment__image {
+        margin: 0 auto 16px auto;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .comments__container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .comment {
+        max-width: 382px;
+        margin: 0 auto 48px auto;
+    }
+    
+
+    .comment__image {
+        margin: 0 auto;
+        order: 1;
+    }
+    
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+        margin: 0 auto;
+    }
+    
+    .comment__author {
+        order: 2;
+        text-align: center;
+        margin: 16px auto 24px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .comments {
+        padding: 0 16px;
+    }
+
+    .comment:last-of-type {
+        margin: 0 auto;
+    }
+
+    .comment:first-of-type {
+        margin: 24px auto 48px auto;
+    }
+
+}
